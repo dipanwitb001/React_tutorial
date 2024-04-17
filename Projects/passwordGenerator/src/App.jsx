@@ -16,6 +16,7 @@ function App() {
 
   // useCallback memoise the function
   // useCallback keeps the new password generated in the cache
+
   const passwordGenerator = useCallback(() => {
     // pass will contain the new password generated and hence will be updated using setPassword function.
 
@@ -38,6 +39,7 @@ function App() {
 
 
   // !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+  
   // copy to clipboard, as it is in core react, we can make use of window object
   const copyPasswordToClipboard = useCallback(() => {
     passwordRef.curr
