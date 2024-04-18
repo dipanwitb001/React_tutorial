@@ -1,5 +1,6 @@
 import React from "react";
 
+// a context is created but no default value is provided
 const UserContext = React.createContext()
 
 export default UserContext;
